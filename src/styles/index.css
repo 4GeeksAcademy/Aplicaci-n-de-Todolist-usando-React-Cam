@@ -9,3 +9,43 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+  background: #f5f5f5;
+  font-family: Arial;
+}
+
+.container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+ul {
+  width: 500px;
+  margin: auto;
+  padding: 0;
+  list-style: none;
+  background: white;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+input {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.delete {
+  cursor: pointer;
+  display: none;
+}
+
+li:hover .delete {
+  display: inline;
+}
